@@ -35,3 +35,12 @@
 - matplotlib, seaborn, plotly
 - scipy, statsmodels
 - VS Code
+
+### Установка 
+```cmd
+git clone https://github.com/yourname/stock-market-models-pet.git
+cd stock-market-models-pet
+python -m venv .venv
+.venv\Scripts\activate
+pip install -r requirements.txt
+```
