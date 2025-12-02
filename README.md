@@ -1,6 +1,6 @@
 # Stock Market Mathematical Models
 
-Анализ дневных доходностей акций крупного фондового рынка с точки зрения современной теории портфеля и риск-менеджмента (2021 год, ~250 торговых дней).
+Анализ дневных доходностей активов, обращающихся на бирже NASDAQ, с точки зрения современной теории портфеля и риск-менеджмента (2021 год, 252 торговых дня).
 
 Цель проекта — на реальных данных пройти весь классический путь от сырых цен закрытия до оценки рисков и поиска Парето-оптимальных активов, используя только открытые данные и open-source инструменты.
 
@@ -35,3 +35,12 @@
 - matplotlib, seaborn, plotly
 - scipy, statsmodels
 - VS Code
+
+### Установка 
+```cmd
+git clone https://github.com/yourname/stock-market-models-pet.git
+cd stock-market-models-pet
+python -m venv .venv
+.venv\Scripts\activate
+pip install -r requirements.txt
+```
