@@ -44,3 +44,13 @@ python -m venv .venv
 .venv\Scripts\activate
 pip install -r requirements.txt
 ```
+
+### Запуск
+Всего проекта сразу:
++ [nasdaq_analisys_united.ipynb](nasdaq_analisys_united.ipynb) - файл с объединёнными заданиями по анализу рынка Nasdaq. 
+
+По частям:
++ [data_load.py](data_load.py) - загрузка данных с yahoo finance (несколько десятков минут в среднем из-за лимита количества запросов у API). Сохранение сырых данных в `data/raw`; 
++ [data_cleanup.ipynb](data_cleanup.ipynb) - очистка данных и сохранение в `data/processed`; 
++ [normality_distr_check.ipynb](normality_distr_check.ipynb) - проверка нормальности данных по самым интересным активам; 
++ [data_analisys.ipynb](data_analisys.ipynb) - применение методов анализа данных для извлечения инсайтов из данных.
